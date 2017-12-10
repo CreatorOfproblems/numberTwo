@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font: 16px "Bitter", serif;
+}
+
+.Amelia {
+	background-image: url(./img/autumn.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+header img {
+	width: 30px;
+	height: 30px;
+
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.menu a {
+	padding-right: 15px;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+}
+
+.menu a:last-child {
+	padding-right: 0px;
+}
+
+.Amelia h2 {
+	margin-top: 150px;
+	align-self: center;
+	color: #FFFFFF;
+}
+
+.Amelia p {
+	margin-top: 30px;
+	margin-bottom: 66px;
+	align-self: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.boaster {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 67px;
+	margin-bottom: 42px;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+}
+
+.aboutHer {
+	margin-top: 80px;
+}
+
+.order {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+}
+
+.order button {
+	color: #008080;
+	width: 120px;
+	height: 40px;
+	align-self: center;
+}
+
+.order h3, .order p {
+	align-self: center;
+	text-align: center;
+}
+
+.order p {
+	margin-bottom: 35px;
+}
